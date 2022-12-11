@@ -1,0 +1,13 @@
+cloud:
+  aws:
+   credentials:
+     access-key: AKIAVIQN5WVTFDJ623LD
+     secret-key: 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
+   region:
+     static: us-east-1
+     auto: false
+
+topic:
+  arn:
+    sms: arn:aws:sns:us-east-1:361880204646:simple-message-service
+    email: arn:aws:sns:us-east-1:361880204646:aws-email-service
